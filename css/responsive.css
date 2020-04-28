@@ -1,0 +1,36 @@
+@media screen and (max-width: 800px) {
+    header nav main footer {
+      width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+    }
+    header p{
+        text-align: center;
+    }
+    header .icon, #banner .contact {
+        display: none;
+    }
+    #banner .logo img{
+        margin-left: 15%;
+    }
+    #infor .special{
+        border-right: 2px solid #e2e2e2
+    }
+    #mainLeft{
+        padding-right: 0;
+    } 
+    #mainRight{
+        padding-left: 0;
+    }   
+    footer .navbar{
+        display: none;
+    }
+    footer .infor{
+        margin-left: 5%;
+    }
+    #mainLeft .hot-item{
+        margin: auto;
+    }
+    .best-seller-item, .sale-item, .news{
+        margin: auto;
+        max-width: 280px;
+    } 
+}
