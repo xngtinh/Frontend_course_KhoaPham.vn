@@ -2,6 +2,10 @@
     header nav main footer {
       width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
     }
+    main .main-mb{
+        margin: 0;
+    }
+    
     header p{
         text-align: center;
     }
@@ -13,12 +17,6 @@
     }
     #infor .special{
         border-right: 2px solid #e2e2e2
-    }
-    #mainLeft{
-        padding-right: 0;
-    } 
-    #mainRight{
-        padding-left: 0;
     }   
     footer .navbar{
         display: none;
@@ -28,6 +26,12 @@
     }
     #mainLeft .hot-item{
         margin: auto;
+    }
+    #mainRight{
+        padding-left: 0;
+    }
+    #mainRight .box .item .item-img{
+        width: 90%;
     }
     .best-seller-item, .sale-item, .news{
         margin: auto;
